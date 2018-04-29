@@ -67,7 +67,7 @@ a {
 a:hover {
   color: #F6A623
 }
-.post, .about {
+.post, .about, .stream, #twitch-embed {
   max-width: 800px;
   margin: 0 auto;
   padding: 60px 0;
@@ -93,10 +93,10 @@ h1, h2, h3, h4 {
 p {
   line-height: 1.5;
 }
-.about {
+.about, .stream {
   text-align: center;
 }
-.post-author img, .about-author img {
+.post-author img, .about-author img, .stream-info img {
   border-radius: 50%;
 }
 .post-container:nth-child(even) {
